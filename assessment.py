@@ -43,9 +43,8 @@ def show_info(username):
     print(f"Your current balance is: {green}${customer_info[2]}")
     return banking_loop(username)
 
-
+#bank loop to choose display account info or quit
 def banking_loop(username):
-
     choice = input(f"{reset}Please choose one of the following options\nB to show bank info\nQ to quit\nUser Choice: ")
     if choice.upper() == 'B':
         return show_info(username)
