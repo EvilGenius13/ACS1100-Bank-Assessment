@@ -1,6 +1,3 @@
-#going to write out to a new file since I have changed the data layout
-#which would then be used for future iterations
-
 import json
 bank_accounts = {}
 json.dumps = bank_accounts
